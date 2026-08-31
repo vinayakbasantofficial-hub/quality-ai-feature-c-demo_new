@@ -1,0 +1,17 @@
+{
+  "bug_id": "BUG-002",
+  "release": "release-3-(Latest)",
+  "application": "Amazon India",
+  "title": "Checkout fails after increasing item quantity",
+  "description": "Checkout fails for some carts after the quantity of an item is increased from the cart page.",
+  "steps_to_reproduce": [
+    "Open Amazon India",
+    "Add a product to the cart",
+    "Increase quantity from 1 to 2",
+    "Proceed to checkout"
+  ],
+  "expected_result": "Checkout should continue with the updated quantity and total.",
+  "actual_result": "The checkout flow stops and an error is displayed.",
+  "severity": "High",
+  "status": "Open"
+}
