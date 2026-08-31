@@ -1,0 +1,17 @@
+{
+  "bug_id": "BUG-004",
+  "release": "release-3-(Latest)",
+  "application": "Amazon US",
+  "title": "Search results show duplicate products after applying a filter",
+  "description": "Duplicate product cards are displayed after a price filter is applied to search results.",
+  "steps_to_reproduce": [
+    "Open Amazon US",
+    "Search for headphones",
+    "Apply a price filter",
+    "Scroll through the first page of results"
+  ],
+  "expected_result": "Each product should appear only once in the search results.",
+  "actual_result": "Some products appear multiple times after filtering.",
+  "severity": "Low",
+  "status": "Open"
+}
