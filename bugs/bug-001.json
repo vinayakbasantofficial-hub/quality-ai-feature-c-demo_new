@@ -1,0 +1,17 @@
+{
+  "bug_id": "BUG-001",
+  "release": "release-3-(Latest)",
+  "application": "Amazon India",
+  "title": "Cart count does not update after removing a product",
+  "description": "The product is removed from the cart, but the cart badge count remains unchanged until the page is refreshed.",
+  "steps_to_reproduce": [
+    "Open Amazon India",
+    "Add one product to the cart",
+    "Open the cart",
+    "Remove the product"
+  ],
+  "expected_result": "The cart badge count should decrease immediately after the product is removed.",
+  "actual_result": "The product disappears from the cart, but the cart badge count still shows the previous value.",
+  "severity": "Medium",
+  "status": "Open"
+}
