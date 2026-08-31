@@ -1,0 +1,16 @@
+{
+  "bug_id": "BUG-005",
+  "release": "release-3-(Latest)",
+  "application": "Amazon US",
+  "title": "Wishlist item does not move to cart consistently",
+  "description": "Some users report that moving an item from the wishlist to the cart does not always update the cart.",
+  "steps_to_reproduce": [
+    "Open Amazon US",
+    "Open the wishlist",
+    "Choose an item",
+    "Select Move to Cart"
+  ],
+  "expected_result": "The selected wishlist item should be removed from the wishlist and added to the cart.",
+  "actual_result": "The item sometimes remains in the wishlist and does not appear in the cart.",
+  "status": "open"
+}
