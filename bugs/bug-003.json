@@ -3,7 +3,7 @@
   "release": "release-3-(Latest)",
   "application": "Amazon US",
   "title": "Wishlist item cannot be moved to cart",
-  "description": "A product saved in the wishlist remains in the wishlist after Move to Cart is selected and is not added to the cart.",
+  "description": "",
   "steps_to_reproduce": [
     "Open Amazon US",
     "Save a product to the wishlist",
